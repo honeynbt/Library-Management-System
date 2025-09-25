@@ -18,9 +18,6 @@ This project manages books and users, supports multiple copies of each book, and
 - **Inventory**
   - Supports multiple copies of each book and maintains accurate counts.
 
----
-
-## 🏗️ Project Structure
 
 ---
 

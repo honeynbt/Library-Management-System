@@ -27,8 +27,23 @@ This project manages books and users, supports multiple copies of each book, and
 
 ---
 
+## 🏗️ Project Structure
+src/
+│
+├─ Book.java // Book entity with ID, title, author, copies
+├─ User.java // User entity with ID, name, borrowed books
+├─ Library.java // Core logic: add/search/issue/return
+
+---
+
 ## ⚙️ Setup & Run
 1. **Clone or Download**
    ```bash
    git clone https://github.com/<your-username>/library-management-java.git
    cd library-management-java
+2. **Compile**
+   ```bash
+   javac src/*.java
+3. **Run**
+  ```bash
+java -cp src Main
